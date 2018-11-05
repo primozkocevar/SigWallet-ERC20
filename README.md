@@ -12,6 +12,9 @@ ERC20 tokens can not be forwarded under the ERC20 standard and thus an flushToke
 # Where to use?
 This mechanism can be used everywhere you need to receive tokens and Ether from different users to a single address and additionaly note which funds have been sent by a certain user. Thus you can give a deployed Forwarder contract to each user and record events when users send funds to this Forwarder that forwards them to the main Wallet contract that is usually controlled by your platform (exchange, cryptomarketplace, a crypto platform...)
 
+# MultiSig Withdraw?
+Doing a withdraw with multiple signatures can be more secure as the withdraw from the main Wallet contract needs signatures from multiple keys that can be owned by different entities. Smart contracts and tests for this use case can be found: https://github.com/BitGo/eth-multisig-v2 
+
 # Future
 This repository deals with Ether and ERC20 tokens. If your tokens are using different implementation standards (ERC-223, ERC-721) than forwarding is maybe done differently and you should look elsewhere for a more efficient solution.
 

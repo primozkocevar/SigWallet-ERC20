@@ -1,5 +1,6 @@
 # SigWallet
-Everything is explained much more in depth here: https://medium.com/@primozkocevar/forwarder-contract-for-ether-and-erc-20-tokens-e257a621889d
+Everything is explained much more in depth here:  
+https://medium.com/@primozkocevar/forwarder-contract-for-ether-and-erc-20-tokens-e257a621889d
 # About
 Wallet contracts for sending multiple ERC20 and ETH tokens at the same time to one wallet and setting off events when this happens.
 This project is developed with help of an already existing repository https://github.com/BitGo/eth-multisig-v2

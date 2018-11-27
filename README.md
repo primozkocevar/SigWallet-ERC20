@@ -18,6 +18,10 @@ This mechanism can be used everywhere you need to receive tokens and Ether from 
 Doing a withdraw with multiple signatures can be more secure as the withdraw from the main Wallet contract needs signatures from multiple keys that can be owned by different entities. Smart contracts and tests for this use case can be found: https://github.com/BitGo/eth-multisig-v2 
 
 # Future
+Writing Tests in Truffle for used contracts is still needed so that their functionality can be better presented.
+
 This repository deals with Ether and ERC20 tokens. If your tokens are using different implementation standards (ERC-223, ERC-721) than forwarding is maybe done differently and you should look elsewhere for a more efficient solution.
 
 With the development of Ethereum 2-layer solutions like Plasma (specifically Plasma Cash) the mechanisms implemented in this repository will probably become unefficient as needed solutions will be provided by Plasma (as it is envisioned now in October of 2018).
+
+
